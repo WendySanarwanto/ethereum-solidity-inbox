@@ -1,0 +1,24 @@
+{
+  "name": "inbox",
+  "version": "0.0.1",
+  "description": "A first exercise sample taken from Udemy's \"Ethereum and Solidity: The Complete Developer's Guide\"",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node ./compile.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "solc": "^0.4.19",
+    "web3": "^1.0.0-beta.29"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.0.3",
+    "mocha": "^5.0.0"
+  }
+}
