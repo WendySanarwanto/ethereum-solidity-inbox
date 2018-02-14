@@ -6,12 +6,12 @@ An exercise sample taken from Udemy's "Ethereum and Solidity, the complete devel
 
 In this sample we can learn how to create & also testing an Ethereum smart contract project. The details are listed at below:
 
-* Creating Project's structure.
+* Define structure of Ethereum Solidity project.
 
 * Setup required project's dependencies.
 
 * Writing the smartcontract by using Solidity language.
 
-* Compile the contract using `solc` library
+* Compile the contract using `solc` library and exporting the compiled contract's bytecode and ABI. 
 
-* Creating `mocha` unit test by using ganache-cli test node to deploy the compiled contract when running the unit test.
+* Create system test against the compiled contract by using Mocha test. 
