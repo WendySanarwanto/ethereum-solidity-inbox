@@ -6,7 +6,8 @@
   "scripts": {
     "compile": "node ./compile.js",
     "test": "mocha",
-    "deploy": "node ./deploy.js"
+    "deploy": "node ./deploy.js",
+    "systemtest": "mocha ./system-test/**"
   },
   "keywords": [
     "ethereum",
